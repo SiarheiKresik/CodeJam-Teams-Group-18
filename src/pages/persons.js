@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from 'react';
+import { Link } from 'gatsby';
 
-import Layout from '../components/layout'
+import Layout from '../components/layout';
 
 const Persons = () => (
   <Layout>
@@ -9,6 +9,6 @@ const Persons = () => (
     <p>TODO: list of persons and the search input</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
-)
+);
 
-export default Persons
+export default Persons;
