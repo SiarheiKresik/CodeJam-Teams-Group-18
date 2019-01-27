@@ -3,18 +3,18 @@ import styles from './about-us.module.css';
 import Container from './container';
 
 const User = props => (
-  <div className={styles.user}>
+  <article className={styles.user}>
     <img src={props.avatar} className={styles.avatar} alt="" />
-    <div className={styles.description}>
+    <section className={styles.description}>
       <h2 className={styles.username}>{props.username}</h2>
       <p className={styles.excerpt}>{props.excerpt}</p>
-    </div>
-  </div>
+    </section>
+  </article>
 );
 
 export default () => (
   <Container>
-    <h1>About us</h1>
+    <h3>About us</h3>
     <User
         username="Jane Doe"
         avatar="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
