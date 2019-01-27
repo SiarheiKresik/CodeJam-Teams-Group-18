@@ -8,13 +8,11 @@ import Person from '../components/person';
 
 const IndexPage = () => (
   <Layout>
-    <Portal headerText="контент о портале" /> 
+    <Portal headerText="контент о портале" />
     <Person />
     <About />
-      <div>
-      {/* <Image /> */}
-    </div>
+    <div>{/* <Image /> */}</div>
   </Layout>
-  );
+);
 
 export default IndexPage;

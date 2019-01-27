@@ -19,9 +19,7 @@ const Layout = ({ children }) => (
     render={data => (
       <Fragment>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div>
-          {children}
-        </div>
+        <div>{children}</div>
       </Fragment>
     )}
   />
