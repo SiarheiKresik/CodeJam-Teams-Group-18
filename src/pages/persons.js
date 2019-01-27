@@ -3,13 +3,26 @@ import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 
-const Persons = () => (
-  <Layout>
-    <h1>PERSONS</h1>
-    <p>TODO: list of persons and the search input</p>
-    <Link to="/">Go back to the homepage</Link>
-  </Layout>
-);
+const Persons = ({ data }) => {
+  const persons = data.allDataJson.edges;
+  return (
+    <Layout>
+      <h1>PERSONS</h1>
+      <p>TODO: list of persons and the search input</p>
+      {persons.map(person => {
+        const { firstName } = person.node;
+        const { lastName } = person.node;
+        const { id } = person.node;
+        return (
+          <Link to={person.node.fields.slug} key={id}>
+            <div>{`${firstName} ${lastName}`}</div>
+          </Link>
+        );
+      })}
+      <Link to="/">Go back to the homepage</Link>
+    </Layout>
+  );
+};
 
 export default Persons;
 
