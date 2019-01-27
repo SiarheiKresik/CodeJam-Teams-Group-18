@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 
@@ -12,3 +12,21 @@ const Persons = () => (
 );
 
 export default Persons;
+
+export const query = graphql`
+  query {
+    allDataJson(sort: { fields: [lastName, firstName], order: ASC }) {
+      totalCount
+      edges {
+        node {
+          id
+          firstName
+          lastName
+          fields {
+            slug
+          }
+        }
+      }
+    }
+  }
+`;
