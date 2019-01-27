@@ -1,3 +1,9 @@
 import React from 'react';
+import Container from './container';
+import styles from './person.module.css';
 
-export default props => <h1>{props.headerText}</h1>
+
+export default props => (
+<p>{props.headerText}</p>
+
+)
