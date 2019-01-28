@@ -1,0 +1,15 @@
+.container {
+  margin: 2em auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  margin: 1em auto;
+  min-width: 40%;
+}
+
+.search[type='search'] {
+  padding: 0.5em 1em;
+  text-align: center;
+}
