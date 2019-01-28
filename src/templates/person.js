@@ -9,8 +9,6 @@ import '../data/pict/001/1.jpg';
 
 export default ({ data }) => {
   const person = data.dataJson;
-  console.log(person.pict);
-  console.log(person.id);
   return (
     <Layout>
       <section
