@@ -10,8 +10,8 @@
   
   .avatar {
     flex: 0 0 96px;
-    width: 96px;
-    height: 96px;
+    width: 250px;
+    height: 250px;
     margin: 0;
   }
   
@@ -28,4 +28,9 @@
   
   .excerpt {
     margin: 0;
+  }
+
+  .title {
+    text-align: center;
+    
   }

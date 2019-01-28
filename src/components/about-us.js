@@ -1,12 +1,18 @@
 import React from 'react';
 import styles from './about-us.module.css';
 import Container from './container';
+import pict from '../images/github-logo.png';
 
 const User = props => (
   <article className={styles.user}>
-    <img src={props.avatar} className={styles.avatar} alt="" />
+    <img src={props.avatar} className={styles.avatar} alt="name-developers" />
     <section className={styles.description}>
-      <h2 className={styles.username}>{props.username}</h2>
+      <h2 className={styles.username}>
+        <a href={props.link}>{props.username}</a>
+      </h2>
+      <a href={props.link}>
+        <img src={props.image} className={props.image} alt="git-hub" />
+      </a>
       <p className={styles.excerpt}>{props.excerpt}</p>
     </section>
   </article>
@@ -14,9 +20,11 @@ const User = props => (
 
 export default () => (
   <Container>
-    <h3>About us</h3>
+    <h3 className={styles.title}>About us</h3>
     <User
-      username="Jane Doe"
+      link="https://github.com/SiarheiKresik"
+      username="Bob Smith"
+      image={pict}
       avatar="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
       excerpt="I'm Jane Doe. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     />
