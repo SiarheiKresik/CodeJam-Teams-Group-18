@@ -4,6 +4,7 @@ module.exports = {
     description: 'dream team 18 project',
     author: '',
   },
+  pathPrefix: '/CodeJam-Teams-Group-18',
   plugins: [
     'gatsby-plugin-react-helmet',
     {
