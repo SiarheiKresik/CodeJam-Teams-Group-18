@@ -1,0 +1,182 @@
+[
+    {
+        "firstName": "Лариса", 
+        "lastName": "Александровская",
+        "id": "001", 
+        "city": "Минск",
+        "youtube":"https://www.youtube.com/watch?v=ORYrVlkTZLg&t=0s&index=98&list=WL"
+        ,"pict": "1.jpg"
+        ,"data":
+        [
+            {
+                "key": "001",
+                "dateText": "15 февраля 1904",
+                "content": "Родилась в Минске."
+            },
+            {
+                "key": "002",
+                "dateText": "1928",
+                "content": "Закончила Беларуский музыкальный техникум."
+            },
+            {
+                "key": "003",
+                "dateText": "1927",
+                "content": "Исполняла белорусские народные песни на Международной музыкальной выставке во Франкфурте-на-Майне (Германия)."
+            },
+            {
+                "key": "004",
+                "dateText": "1933",
+                "content": "Солистка Белорусского театра оперы и балета в Минске."
+            },
+            {
+                "key": "005",
+                "dateText": "23 мая 1980",
+                "content": "Похоронена в Минске на Восточном кладбище."
+            }
+        ]
+    },
+    {
+        "firstName": "Владимир",
+        "lastName": "Савицкий",
+        "id": "002",
+        "city": "Барановичи",
+        "youtube": "https://www.youtube.com/watch?v=iDRWxIcZK4E"
+        , "pict": "1.jpg"
+        , "data": 
+        [
+            {
+                "key": "001",
+                "dateText": "9 марта 1960",
+                "content": "Родилась в городе Барановичи."
+            },
+            {
+                "key": "002",
+                "dateText": "1981-1987",
+                "content": "Работал актером Могилевского областного театра (г. Бобруйск)."
+            },
+            {
+                "key": "003",
+                "dateText": "1981",
+                "content": "Окончил Белорусский институт культуры."
+            },
+            {
+                "key": "004",
+                "dateText": "1991",
+                "content": "С 1991 Организаторы (вместе с А. Маркевичем) и режиссер театра-студии« Абзац »."
+            },
+            {
+                "key": "005",
+                "dateText": "1993-2010",
+                "content": "В 1993-2010 годах режиссер Купаловского театра."
+            },
+            {
+                "key": "006",
+                "dateText": "2010",
+                "content": "С 2010 года - художественный руководитель Белорусского театра юного зрителя."
+            }
+        ]
+    },
+    {
+        "firstName": "Евстигней",
+        "lastName": "Мирович",
+        "id": "003",
+        "city": "Санкт-Петербург",
+        "youtube": "no"
+        , "pict": "1.jpg"
+        , "data":
+        [
+            {
+                "key": "001",
+                "dateText": "29 июля 1878",
+                "content": "Родился в семье железнодорожника, выходца из Северо-Западного края."
+            },
+            {
+                "key": "002",
+                "dateText": "1900",
+                "content": "С 1900 работал в петербургских театрах актером, затем режиссером."
+            },
+            {
+                "key": "003",
+                "dateText": "1941-1945",
+                "content": "1941-1945 режиссер Белорусского театра им. Я. Купалы."
+            },
+            {
+                "key": "004",
+                "dateText": "25 февраля 1952",
+                "content": "Похоронен на Военном кладбище Минска."
+            }
+        ]
+    },
+    {
+        "firstName": "Любовь",
+        "lastName": "Мозолевский",
+        "id": "004",
+        "city": "Ковшово",
+        "youtube": "no"
+        , "pict": "1.jpg"
+        , "data":
+        [
+            {
+                "key": "001",
+                "dateText": "12 января 1903",
+                "content": "Родился в городе Ковшово, Гродненский уезд. Внучка Григория Мозолевского."
+            },
+            {
+                "key": "002",
+                "dateText": "1920",
+                "content": "В 1920 г., во время польско-советской войны, с отступающей Красной Армией уехала на восток."
+            },
+            {
+                "key": "003",
+                "dateText": "1926",
+                "content": "Окончила Белорусский драматическую студию в Москве."
+            },
+            {
+                "key": "004",
+                "dateText": "1956-1964",
+                "content": "Организатор, главный режиссер Белорусского республиканского театра юного зрителя (Минск). Снялась в ряде картин белорусского киностудии."
+            },
+            {
+                "key": "005",
+                "dateText": "1992",
+                "Content": "С 1992 г. присуждается премия имени Л. И. Мозолевской в ​​области театрального искусства."
+            },
+            {
+                "key": "006",
+                "dateText": "18 июля 1964",
+                "content": "Умерла в возрасте 61 года."
+            }
+        ]
+    },
+    {
+        "firstName": "Veronica",
+        "lastName": "Buslaeva",
+        "id": "005",
+        "city": "Minsk",
+        "youtube": "https://www.youtube.com/watch?v=BQkNJuQcZUY"
+        , "pict": "no"
+        , "data":
+        [
+            {
+                "key": "001",
+                "dateText": "October 3, 1978",
+                "content": "I was born in Minsk."
+            },
+            {
+                "key": "002",
+                "dateText": "2002",
+                "content": "He graduated from the Belarusian State University of Culture, the specialty director, organizer of theatrical activity, teacher of special disciplines."
+            },
+            {
+                "key": "003",
+                "dateText": "2001",
+                "content": "Since 2001, working at the National Theater of Belarusian Drama."
+            },    
+            {
+                "key": "004",
+                "dateText": "2004",
+                "content": "will receive a special scholarship fund of the President of the Republic of Belarus on support of talented youth."
+            }
+        ]
+    }
+]

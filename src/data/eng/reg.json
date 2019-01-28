@@ -1,0 +1,182 @@
+[
+    { 
+        "firstName": "Larisa", 
+        "lastName": "Aleksandrovskaya",
+        "id": "001", 
+        "city": "Minsk",
+        "youtube":"https://www.youtube.com/watch?v=ORYrVlkTZLg&t=0s&index=98&list=WL"
+        ,"pict": "1.jpg"
+        ,"data":
+        [
+            {
+                "key": "001",
+                "dateText": "February 15, 1904",
+                "content": "Born in Minsk."
+            },
+            {
+                "key": "002",
+                "dateText": "1928",
+                "content": "Graduated from Belarusian musical technical school."
+            },
+            {
+                "key": "003",
+                "dateText": "1927",
+                "content": "Performed Belarusian folk songs at the International Music Fair in Frankfurt am Main (Germany)."
+            },
+            {
+                "key": "004",
+                "dateText": "1933",
+                "content": "Soloist of the Belarusian Opera and Ballet Theater in Minsk."
+            },
+            {
+                "key": "005",
+                "dateText": "May 23, 1980",
+                "content": "Buried in Minsk at the Eastern Cemetery."
+            }
+        ]
+    },
+    {
+        "firstName": "Vladimir",
+        "lastName": "Sawicki",
+        "id": "002",
+        "city": "Baranovichi",
+        "youtube": "https://www.youtube.com/watch?v=iDRWxIcZK4E"
+        , "pict": "1.jpg"
+        , "data": 
+        [
+            {
+                "key": "001",
+                "dateText": "March 9, 1960",
+                "content": "I was born in the town of Baranovichi."
+            },
+            {
+                "key": "002",
+                "dateText": "1981-1987",
+                "content": "He worked as an actor Mogilev Regional Theater (Bobruisk)."
+            },
+            {
+                "key": "003",
+                "dateText": "1981",
+                "content": "He graduated from the Belarusian Institute of Culture."
+            },
+            {
+                "key": "004",
+                "dateText": "1991",
+                "content": "Since 1991 organizers (together with A. Markevich) and director of the theater-studio Passage."
+            },
+            {
+                "key": "005",
+                "dateText": "1993-2010",
+                "content": "In the years 1993-2010 the director of Kupala Theater."
+            },
+            {
+                "key": "006",
+                "dateText": "2010",
+                "content": "Since 2010 - the artistic director of the Belarusian Youth Theater."
+            }
+        ]
+    },
+    {
+        "firstName": "Yevstigney",
+        "lastName": "Mirovich",
+        "id": "003",
+        "city": "St. Petersburg",
+        "youtube": "no"
+        , "pict": "1.jpg"
+        , "data":
+        [
+            {
+                "key": "001",
+                "dateText": "29 July 1878",
+                "content": "The son of a railway worker, who comes from the North-West region."
+            },
+            {
+                "key": "002",
+                "dateText": "1900",
+                "content": "From 1900 he worked in the St. Petersburg theater actor and then a director."
+            },
+            {
+                "key": "003",
+                "dateText": "1941-1945",
+                "content": "1941-1945 the director of the Belarusian Theater of Yanka Kupala.."
+            },
+            {
+                "key": "004",
+                "dateText": "February 25, 1952",
+                "content": "He was buried at the Military Cemetery in Minsk."
+            }
+        ]
+    },
+    {
+        "firstName": "Love",
+        "lastName": "Mozolevski",
+        "id": "004",
+        "city": "The Bucket",
+        "youtube": "no"
+        , "pict": "1.jpg"
+        , "data":
+        [
+            {
+                "key": "001",
+                "dateText": "January 12, 1903",
+                "content": "I was born in bucket, Grodno entry Granddaughter Gregory Mozolevsky."
+            },
+            {
+                "key": "002",
+                "dateText": "1920",
+                "content": "In 1920, during the Polish-Soviet War, with the retreating Red Army went to the east."
+            },
+            {
+                "key": "003",
+                "dateText": "1926",
+                "content": "She graduated from the Belarusian Drama Studio in Moscow."
+            },
+            {
+                "key": "004",
+                "dateText": "1956-1964",
+                "content": "The organizer, the chief director of the Belarusian Republican Youth Theater (Minsk) She starred in a number of Belarusian studio paintings."
+            },
+            {
+                "key": "005",
+                "dateText": "1992",
+                "content": "Since 1992, awarded the prize named after LI Mozolevskaya in theater arts."
+            },
+            {
+                "key": "006",
+                "dateText": "18 July 1964",
+                "content": "She died at the age of 61 years."
+            }
+        ]
+    },
+    {
+        "firstName": "Veronica",
+        "lastName": "Buslaeva",
+        "id": "005",
+        "city": "Minsk", 
+        "youtube": "https://www.youtube.com/watch?v=BQkNJuQcZUY"
+        , "pict": "no"
+        , "data":
+        [
+            {
+                "key": "001",
+                "dateText": "October 3, 1978",
+                "content": "I was born in Minsk."
+            },
+            {
+                "key": "002",
+                "dateText": "2002",
+                "content": "He graduated from the Belarusian State University of Culture, the specialty director, organizer of theatrical activity, teacher of special disciplines."
+            },
+            {
+                "key": "003",
+                "dateText": "2001",
+                "content": "Since 2001, working at the National Theater of Belarusian Drama."
+            },                  
+            {
+                "key": "004",
+                "dateText": "2004",
+                "content": "will receive a special scholarship fund of the President of the Republic of Belarus on support of talented youth."
+            }
+        ]
+    }
+]
