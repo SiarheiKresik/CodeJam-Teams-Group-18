@@ -2,11 +2,11 @@ import React from 'react';
 import { Link } from 'gatsby';
 import styles from './navigation.module.css';
 
-const ListLink = props => (
-  <li className={styles.paragraph}>
-    <Link to={props.to}>{props.children}</Link>
-  </li>
-);
+// const ListLink = props => (
+//   <li className={styles.paragraph}>
+//     <Link to={props.to}>{props.children}</Link>
+//   </li>
+// );
 
 export default () => (
   <nav className={styles.nav}>
