@@ -2,6 +2,9 @@ import React from 'react';
 import styles from './about-us.module.css';
 import Container from './container';
 import pict from '../images/github-logo.png';
+import marry from '../images/Marry.jpg';
+import iam from '../images/iam.jpg';
+import serg from '../images/serg.jpg';
 
 const User = props => (
   <article className={styles.user}>
@@ -23,20 +26,24 @@ export default () => (
     <h3 className={styles.title}>About us</h3>
     <User
       link="https://github.com/SiarheiKresik"
-      username="Bob Smith"
+      username="Siarhei Kresik"
       image={pict}
-      avatar="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
-      excerpt="I'm Jane Doe. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      avatar={serg}
+      excerpt="CodeJam-Culture-Portal/RSSchool 2018Q3"
     />
     <User
-      username="Bob Smith"
-      avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
-      excerpt="I'm Bob Smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      link="https://github.com/zzVIPz"
+      username="Siarhei Tsialeha"
+      image={pict}
+      avatar={iam}
+      excerpt="CodeJam-Culture-Portal/RSSchool 2018Q3"
     />
     <User
-      username="Bob Smith"
-      avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
-      excerpt="I'm Bob Smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      link="https://github.com/marry705"
+      username="Шило Марина"
+      image={pict}
+      avatar={marry}
+      excerpt="CodeJam-Culture-Portal/RSSchool 2018Q3"
     />
   </Container>
 );

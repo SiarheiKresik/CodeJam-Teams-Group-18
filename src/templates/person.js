@@ -20,7 +20,7 @@ export default ({ data }) => {
         <h2>
           {person.firstName} {person.lastName}
         </h2>
-        <Photo data={person.id} />
+        {/* <Photo data={person.id} /> */}
         <div>
           <span>
             {person.birth || '...'}
@@ -29,7 +29,9 @@ export default ({ data }) => {
           </span>
         </div>
         <Timeline data={person.data} />
+
         {person.gal === true ? <PhotoGallery data={person.id} /> : null}
+        <img src={person.pict} alt="img" />
         <div>video</div>
         <div>mape</div>
       </section>

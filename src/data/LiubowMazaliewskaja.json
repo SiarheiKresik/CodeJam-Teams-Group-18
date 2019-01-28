@@ -4,11 +4,11 @@
   "birth": "12 студзеня 1903",
   "death": "18 ліпеня 1964",
   "id": "004",
-  "gal": false,
+  "gal": true,
   "city": "Каўшова",
   "coordinat": "53.525, 24.189167",
   "youtube": "",
-  "pict": "1.jpg",
+  "pict":"../data/pict/004/1.fig",
   "data": [
     {
       "key": "001",

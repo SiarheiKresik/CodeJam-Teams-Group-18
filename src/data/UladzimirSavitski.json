@@ -8,8 +8,8 @@
   "city": "Баранавічы",
   "coordinat": "53.116667, 25.983333",
   "youtube": "https://www.youtube.com/watch?v=iDRWxIcZK4E",
-  "pict": "1.jpg",
-  "data": [
+  "pict": "../data/pict/002/1.jpg",
+   "data": [
     {
       "key": "001",
       "dateText": "9 сакавіка 1960",

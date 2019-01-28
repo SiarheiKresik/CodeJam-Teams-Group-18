@@ -8,7 +8,7 @@
   "city": "Санкт-Пецярбург",
   "coordinat": "59.9386300, 30.3141300",
   "youtube": "",
-  "pict": "1.jpg",
+  "pict": "../data/pict/003/1.jpg",   
   "data": [
     {
       "key": "001",
