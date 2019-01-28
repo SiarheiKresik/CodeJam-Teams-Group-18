@@ -54,7 +54,6 @@ export const query = graphql`
       city
       coordinat
       youtube
-      pict
       data {
         key
         dateText
