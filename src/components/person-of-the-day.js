@@ -14,7 +14,7 @@ import LarysaPict from '../data/pict/001/1.jpg';
 const nameArr = [Jewst, Larysa, Liubow, Uladzimir];
 const pictArr = [JewstPict, LarysaPict, LiubowPict, UladzimirPict];
 const totalEl = nameArr.length;
-const countName = Math.ceil(Math.random() * totalEl);
+const countName = Math.ceil(Math.random() * totalEl) - 1;
 
 const Person = props => (
   <article className={styles.user}>

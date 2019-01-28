@@ -8,7 +8,7 @@ import Person from '../components/person-of-the-day';
 
 const IndexPage = () => (
   <Layout>
-    <Portal headerText="контент о портале" />
+    <Portal headerText="Этот портал предназначен для тех, кто хочет узнать о режиссерах театра Беларуси, приобщиться к культуре. Здесь вы узнаете о биографии и ознакомитесь с фото режиссеров." />
     <Person />
     <About />
     <div>{/* <Image /> */}</div>
