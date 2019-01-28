@@ -8,7 +8,7 @@
   "city": "Мінск",
   "coordinat": "53.9000000, 27.5666700",
   "youtube": "https://www.youtube.com/watch?v=ORYrVlkTZLg&t=0s&index=98&list=WL",
-  "pict": "1.jpg",
+  "pict": "../data/pict/001/1.jpg",
   "data": [
     {
       "key": "001",

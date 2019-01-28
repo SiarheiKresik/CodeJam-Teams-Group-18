@@ -6,7 +6,7 @@ import Jewst from '../data/by/JewstsigniejMirovich.json';
 import Larysa from '../data/by/LarysaAlieksandrowskaja.json';
 import Liubow from '../data/by/LiubowMazaliewskaja.json';
 import Uladzimir from '../data/by/UladzimirSavitski.json';
-import LiubowPict from '../data/pict/004/1.gif';
+import LiubowPict from '../data/pict/004/1.jpg';
 import JewstPict from '../data/pict/003/1.jpg';
 import UladzimirPict from '../data/pict/002/1.jpg';
 import LarysaPict from '../data/pict/001/1.jpg';

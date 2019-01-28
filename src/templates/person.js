@@ -5,9 +5,12 @@ import Layout from '../components/layout';
 import Photo from '../components/photo';
 import Timeline from '../components/timeline';
 import PhotoGallery from '../components/photo-gallery';
+import '../data/pict/001/1.jpg';
 
 export default ({ data }) => {
   const person = data.dataJson;
+  console.log(person.pict);
+  console.log(person.id);
   return (
     <Layout>
       <section
@@ -20,7 +23,7 @@ export default ({ data }) => {
         <h2>
           {person.firstName} {person.lastName}
         </h2>
-        <Photo data={person.id} />
+
         <div>
           <span>
             {person.birth || '...'}
@@ -29,7 +32,9 @@ export default ({ data }) => {
           </span>
         </div>
         <Timeline data={person.data} />
-        {person.gal === true ? <PhotoGallery data={person.id} /> : null}
+        <Photo data={person.id} />
+        {/* {person.gal === true ? <PhotoGallery data={person.id} /> : null} */}
+
         <div>video</div>
         <div>mape</div>
       </section>
@@ -43,6 +48,7 @@ export const query = graphql`
       firstName
       lastName
       birth
+      id
       death
       gal
       city
