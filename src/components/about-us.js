@@ -26,7 +26,7 @@ export default () => (
     <h3 className={styles.title}>About us</h3>
     <User
       link="https://github.com/SiarheiKresik"
-      username="Siarhej Kresik"
+      username="Siarhiej Kresik"
       image={pict}
       avatar={serg}
       excerpt="CodeJam-Culture-Portal/RSSchool 2018Q3"
